@@ -1,0 +1,148 @@
+* {
+    background-color: #fff;
+}
+
+.banner > h1{
+    text-align: center;
+}
+
+.navbar > ul {
+    display: inline-flex;
+    list-style-type: none;
+    padding: 8px;
+    text-align: center;
+    margin: auto;
+    border-spacing: 10px;
+    border: 1.5px solid black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: rgb(97, 92, 92);
+}
+
+.navbar > ul:active {
+    color: red;
+    text-decoration: none;
+}
+
+.navbar li+li::before {
+    content: "^";
+    padding: 20px;
+}
+h2 {
+    text-decoration: underline;
+}
+
+.colors {
+    margin: auto;
+}
+.colors > ul > li{
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 20px auto;
+    box-sizing: border-box;
+}
+
+#turquoise {
+    background-color: turquoise;
+    color: #fff;
+    padding: 20px;
+    margin-left: 8px;
+    box-shadow: 2px 4px azure;
+}
+
+#black {
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    margin-left: 8px;
+}
+
+#azure {
+    background-color: azure;
+    color: black;
+    padding: 20px;
+    margin-left: 8px;
+}
+
+#light-pink {
+    background-color: lightpink;
+    color: #fff;
+    padding: 20px;
+    margin-left: 8px;
+}
+
+.font-container {
+    display: inline-block;
+}
+
+.font-label-lato {
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+}
+
+.light-lato {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+
+.regular-lato {
+    font-family: 'Lato', sans-serif;
+    font-weight: 500; 
+}
+
+.bold-lato {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+.font-label-cinzel {
+    font-family: 'Cinzel', sans-serif;
+    font-size: 30px;
+}
+
+.regular-cinzel {
+    font-family: 'Cinzel', sans-serif;
+    font-weight: 400;
+}
+
+.medium-cinzel {
+    font-family: 'Cinzel', sans-serif;
+    font-weight: 500; 
+}
+
+.bold-cinzel {
+    font-family: 'Cinzel', sans-serif;
+    font-weight: 700;
+}
+
+.font-label-unna {
+    font-family: 'Unna', serif;
+    font-size: 30px;
+}
+
+.regular-unna {
+    font-family: 'Unna', serif;
+    font-weight: 400;
+}
+
+.italic-unna {
+    font-family: 'Unna', serif;
+    font-weight: 400;
+    font-style: italic;
+    
+}
+
+.bold-unna {
+    font-family: 'Unna' serif;
+    font-weight: 700;
+    font-style: bold;
+}
+
+#h2subheading {
+    text-decoration: none;
+}
+
+.text-panel > ul {
+    font-family: 'Lato', sans-serif;
+    list-style-type: circle;
+}
